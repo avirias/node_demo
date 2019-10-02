@@ -26,3 +26,5 @@ with open(filename, 'wb') as f:
     w.writeheader() 
     for quote in quotes: 
         w.writerow(quote) 
+
+# good idea and futher changes can be made to make it better
